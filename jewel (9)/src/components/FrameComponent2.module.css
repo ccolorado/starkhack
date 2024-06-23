@@ -1,0 +1,107 @@
+.frameChild {
+  height: 92px;
+  width: 1274px;
+  position: relative;
+  border-radius: 24px;
+  background-color: #14181b;
+  display: none;
+  max-width: 100%;
+}
+.diamondRing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.profilePictureIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 24px;
+  z-index: 1;
+}
+.milindaPeterson {
+  position: relative;
+  display: inline-block;
+  min-width: 106px;
+  z-index: 1;
+}
+.ownerNameContainer {
+  flex-direction: column;
+  padding: 2.5px 0 0;
+}
+.creator,
+.ownerInfo,
+.ownerNameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ownerInfo {
+  flex-direction: row;
+  gap: 6px;
+  font-size: 14px;
+  font-family: Nunito;
+}
+.creator {
+  flex-direction: column;
+  gap: 5px;
+}
+.pushToBid {
+  position: relative;
+  font-size: 14px;
+  font-family: Nunito;
+  color: #14181b;
+  text-align: left;
+  display: inline-block;
+  min-width: 71px;
+}
+.pushToBidWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pushToBidWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 17px 20px;
+  background-color: #fc9905;
+  width: 343px;
+  border-radius: 16px;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.pushToBidWrapper:hover {
+  background-color: #c96600;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 24px;
+  background-color: #14181b;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 18px 21px 18px 16px;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Domine;
+}
+@media screen and (max-width: 625px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .diamondRing {
+    font-size: 19px;
+  }
+}

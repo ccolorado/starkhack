@@ -1,0 +1,19 @@
+.liveAuction {
+  position: relative;
+  display: inline-block;
+  min-width: 87px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bidders {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 46px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #001b2e;
+  font-family: Domine;
+}

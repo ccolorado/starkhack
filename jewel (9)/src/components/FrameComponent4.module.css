@@ -1,0 +1,143 @@
+.span {
+  font-family: Inter;
+}
+.auction,
+.home {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.home {
+  width: 63.5px;
+  line-height: 23px;
+  color: #a4a4a4;
+  white-space: nowrap;
+}
+.auction {
+  width: 109.2px;
+  color: inherit;
+  cursor: pointer;
+}
+.span1 {
+  font-family: Inter;
+}
+.shop {
+  text-decoration: none;
+  align-self: stretch;
+  height: 19px;
+  position: relative;
+  line-height: 23px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 3;
+}
+.shopWrapper {
+  width: 53.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  box-sizing: border-box;
+}
+.frameWrapper,
+.homeParent {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.homeParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 20px;
+  color: #954928;
+  font-family: Belleza;
+}
+.frameWrapper {
+  width: 358.9px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigationbar {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #f9e6d6, rgba(249, 230, 214, 0));
+  z-index: 2;
+}
+.icons8FacebookCircled1,
+.icons8Search1 {
+  width: 26.7px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.icons8FacebookCircled1Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2px;
+}
+.icons8Instagram1,
+.icons8ShoppingCart241 {
+  height: 30px;
+  width: 26.7px;
+  position: relative;
+  z-index: 1;
+}
+.icons8Instagram1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons8ShoppingCart241 {
+  object-fit: contain;
+}
+.frameParent,
+.icons8Search1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 14.2px;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 67px 61px 47px 231px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  gap: 20px;
+}
+@media screen and (max-width: 675px) {
+  .frameParent {
+    padding-left: 115px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}

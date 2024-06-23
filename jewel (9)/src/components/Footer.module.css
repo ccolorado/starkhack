@@ -1,0 +1,324 @@
+.progressBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+  background-color: #fff;
+  width: 1274px;
+  height: 500.3px;
+}
+.progressBarsChild {
+  position: absolute;
+  top: 139px;
+  left: 26px;
+  width: 17px;
+  height: 17px;
+  z-index: 1;
+}
+.progressBars {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 6px;
+  left: 0;
+}
+.bidArea {
+  width: 1242px;
+  height: 114px;
+  position: relative;
+  display: none;
+  z-index: 2;
+}
+.bidderPictureIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ronaldRichards,
+.s {
+  position: relative;
+  display: inline-block;
+  min-width: 103px;
+}
+.s {
+  font-size: 12px;
+  color: rgba(0, 27, 46, 0.56);
+  min-width: 21px;
+}
+.ronaldRichardsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bidderPictureParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.emptyBidder {
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  min-width: 19px;
+}
+.frameParent {
+  width: 1215px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cameronWilliamson {
+  position: relative;
+  white-space: nowrap;
+}
+.m {
+  position: relative;
+  font-size: 12px;
+  color: rgba(0, 27, 46, 0.56);
+  display: inline-block;
+  min-width: 18px;
+}
+.cameronWilliamsonParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.div {
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  min-width: 26px;
+}
+.frameGroup {
+  width: 1215px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameItem {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.guyHawkins,
+.m1 {
+  position: relative;
+  display: inline-block;
+  min-width: 84px;
+}
+.m1 {
+  font-size: 12px;
+  color: rgba(0, 27, 46, 0.5);
+  min-width: 18px;
+}
+.guyHawkinsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.div1 {
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  min-width: 26px;
+}
+.frameContainer {
+  width: 1215px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameInner {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.darrellSteward,
+.m2 {
+  position: relative;
+  display: inline-block;
+}
+.darrellSteward {
+  align-self: stretch;
+  height: 19px;
+  white-space: nowrap;
+}
+.m2 {
+  width: 18px;
+  height: 16px;
+  font-size: 12px;
+  color: rgba(0, 27, 46, 0.5);
+}
+.darrellStewardParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseContainer {
+  width: 141px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.div2 {
+  height: 16px;
+  width: 26px;
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+}
+.frameDiv {
+  width: 1214px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.ellipseIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.m3,
+.wadeWarren {
+  position: relative;
+  display: inline-block;
+}
+.wadeWarren {
+  align-self: stretch;
+  height: 19px;
+}
+.m3 {
+  width: 25px;
+  height: 16px;
+  font-size: 12px;
+  color: rgba(0, 27, 46, 0.5);
+}
+.wadeWarrenParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseParent1 {
+  width: 132px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.div3 {
+  height: 16px;
+  width: 26px;
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+}
+.frameParent1 {
+  width: 1214px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.auctionDetails,
+.bidButton,
+.bidderList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.bidderList {
+  overflow: auto;
+  flex-direction: column;
+  gap: 24px;
+  z-index: 2;
+}
+.auctionDetails,
+.bidButton {
+  flex-direction: row;
+  padding: 0 30px 0 24px;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+.auctionDetails {
+  height: 229px;
+  overflow-x: auto;
+  flex-direction: column;
+  padding: 18px 6px 184px 5px;
+  position: relative;
+  gap: 17.5px;
+  text-align: left;
+  font-size: 14px;
+  color: #001b2e;
+  font-family: Domine;
+}
+@media screen and (max-width: 650px) {
+  .auctionDetails {
+    padding-top: 20px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .auctionDetails {
+    height: auto;
+  }
+}

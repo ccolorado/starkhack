@@ -1,0 +1,229 @@
+.welcomeBackWe {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.welcomeBackMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px;
+}
+.welcomeBack {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.welcomeBackTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 3px;
+  font-size: 40.3px;
+  color: #efefef;
+}
+.username {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.usernameLabelContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px;
+}
+.cardIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.inputIcon {
+  width: 17.4px;
+  height: 16.7px;
+  position: relative;
+  z-index: 1;
+}
+.inputIconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.username2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.username1,
+.usernameInputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.username1 {
+  flex: 1;
+  padding: 17px 20px;
+  position: relative;
+  gap: 20.6px;
+  z-index: 1;
+}
+.usernameInputContainer {
+  align-self: stretch;
+  padding: 0 0 12px 9px;
+}
+.signinButtonChild {
+  height: 50px;
+  width: 314px;
+  position: relative;
+  border-radius: 15px;
+  background: linear-gradient(
+    90.3deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0)
+  );
+  display: none;
+}
+.continueWithGoogle {
+  position: relative;
+  font-size: 17.9px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.googleSigninContainer,
+.signinButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signinButton {
+  cursor: pointer;
+  border: 0;
+  padding: 11px 57px 12px;
+  background-color: transparent;
+  flex: 1;
+  border-radius: 15px;
+  background: linear-gradient(
+    90.3deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0)
+  );
+  white-space: nowrap;
+  z-index: 1;
+}
+.googleSigninContainer {
+  align-self: stretch;
+  padding: 0 0 0 3px;
+}
+.or {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 17px;
+  z-index: 1;
+}
+.separatorContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 26px 0 20px;
+}
+.signinButtonItem {
+  height: 50px;
+  width: 314px;
+  position: relative;
+  border-radius: 15px;
+  background: linear-gradient(90.3deg, #9c3fe4, #c65647);
+  display: none;
+}
+.continueWithA {
+  position: relative;
+  font-size: 17.9px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.signinButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 11px 56px 12px 57px;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 15px;
+  background: linear-gradient(90.3deg, #9c3fe4, #c65647);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.signinOptions {
+  align-self: stretch;
+  gap: 23.5px;
+  text-align: center;
+  font-size: 11.3px;
+}
+.signinOptions,
+.usernameForm,
+.welcomeMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.usernameForm {
+  align-self: stretch;
+  gap: 15px;
+}
+.welcomeMessage {
+  flex: 1;
+  gap: 16px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 14.3px;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 750px) {
+  .welcomeBack {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeBack {
+    font-size: 24px;
+  }
+  .signinButton,
+  .signinButton1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

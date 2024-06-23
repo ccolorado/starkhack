@@ -1,0 +1,36 @@
+.login,
+.welcomeMessageWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.welcomeMessageWrapper {
+  width: 453px;
+  flex-direction: row;
+  padding: 0 65px;
+  max-width: 100%;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 242px;
+  gap: 49px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 675px) {
+  .login {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeMessageWrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+}

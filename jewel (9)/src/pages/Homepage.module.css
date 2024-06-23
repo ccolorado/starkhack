@@ -1,0 +1,230 @@
+.homepageChild {
+  width: 269px;
+  height: 99px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  display: none;
+}
+.frameChild,
+.logoChild {
+  position: absolute;
+  top: -1.5px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.logoChild {
+  top: 42px;
+  left: 20.4px;
+  border-radius: 50%;
+  background-color: #e7a77d;
+  width: 88.9px;
+  height: 100px;
+}
+.circleLogo1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.logo,
+.maskGroupIcon {
+  position: absolute;
+  top: -9px;
+  left: 14.1px;
+  width: 129.8px;
+  height: 184px;
+  z-index: 3;
+}
+.maskGroupIcon {
+  top: 117px;
+  left: 547.5px;
+  width: 611px;
+  height: 507px;
+  object-fit: contain;
+}
+.vectorParent {
+  height: 624px;
+  width: 1274.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: -727px;
+  bottom: -257px;
+}
+.buySafelyAnd {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 460px;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 46px;
+  box-sizing: border-box;
+}
+.buttonShapes {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: #e7d6cb;
+  width: 269px;
+  z-index: 2;
+}
+.sellYourJewellery {
+  margin: 0;
+  position: absolute;
+  top: 26px;
+  left: 20px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 259px;
+  height: 37px;
+  z-index: 5;
+}
+.buttons {
+  height: 99px;
+  width: 279px;
+  position: relative;
+}
+.buttonsChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: #e7d6cb;
+  width: 269px;
+  cursor: pointer;
+  z-index: 4;
+}
+.buyJewellery {
+  margin: 0;
+  position: absolute;
+  top: 26px;
+  left: 46px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 259px;
+  height: 37px;
+  z-index: 5;
+}
+.buttons1 {
+  height: 99px;
+  flex: 1;
+  position: relative;
+  min-width: 198px;
+  margin-left: -1px;
+}
+.buttonsParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  font-size: 32px;
+}
+.buttonsParent,
+.frameParent,
+.homepage,
+.homepageInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 39px;
+  max-width: 100%;
+}
+.homepage,
+.homepageInner {
+  box-sizing: border-box;
+}
+.homepageInner {
+  width: 615px;
+  flex-direction: row;
+  padding: 0 16px;
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 327px;
+  gap: 73px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 64px;
+  color: #000;
+  font-family: Belleza;
+}
+@media screen and (max-width: 750px) {
+  .buySafelyAnd {
+    font-size: 51px;
+  }
+  .buyJewellery,
+  .sellYourJewellery {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameWrapper {
+    padding-left: 23px;
+    padding-right: 23px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 19px;
+  }
+  .homepage {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buySafelyAnd {
+    font-size: 38px;
+  }
+  .buyJewellery,
+  .sellYourJewellery {
+    font-size: 19px;
+  }
+  .buttons1 {
+    margin-left: 0;
+  }
+  .homepage {
+    gap: 18px;
+  }
+}

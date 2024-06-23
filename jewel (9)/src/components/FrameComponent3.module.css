@@ -1,0 +1,42 @@
+.icons8FacebookCircled1,
+.icons8Instagram1,
+.icons8Search1 {
+  position: absolute;
+  top: 69px;
+  left: 1069.3px;
+  width: 26.7px;
+  height: 30px;
+  overflow: hidden;
+}
+.icons8FacebookCircled1,
+.icons8Instagram1 {
+  left: 1151.1px;
+}
+.icons8FacebookCircled1 {
+  top: 67px;
+  left: 1110.2px;
+}
+.icons8ShoppingCart241 {
+  position: absolute;
+  top: 69px;
+  left: 1192px;
+  width: 26.7px;
+  height: 30px;
+  object-fit: cover;
+}
+.navigationbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #f9e6d6, rgba(249, 230, 214, 0));
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.icons8Search1Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 146px;
+}
